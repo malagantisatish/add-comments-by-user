@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.comment-section {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+  height: 70vh;
+  width: 100vw;
+}
+
+.your-comment-section {
+  padding: 10px;
+}
+
+.comment-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.your-comment {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+
+.your-name-input-element {
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.your-comment-input-element {
+  width: 400px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.add-comment-btn {
+  height: 50px;
+  width: 130px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0ea5e9;
+  border-width: 0px;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.image-size {
+  height: 400px;
+  margin: 10px;
+  align-self: center;
+}
+
+.comments-count {
+  border-style: solid;
+  background-color: #0ea5e9;
+  font-size: 25px;
+  padding: 5px;
+  border-width: 0px;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.comments-heading {
+  font-size: 25px;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+
+.comments-container {
+  list-style: none;
+}

@@ -1,0 +1,91 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.first-letter {
+  color: white;
+  padding: 5px;
+  border-style: solid;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.customer-details-container {
+  display: flex;
+}
+
+.name {
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 5px;
+  padding: 5px;
+}
+
+.comment {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 5px;
+  color: #475569;
+}
+
+.time {
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin: 5px;
+  color: #475569;
+  padding: 5px;
+}
+
+.liked-img-size {
+  height: 30px;
+  margin: 5px;
+}
+.delete-img-size {
+  height: 30px;
+  margin: 5px;
+}
+
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.like-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
